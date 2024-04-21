@@ -121,27 +121,20 @@ a, button {
 	justify-content: space-around;
 }
 .quote {
-	width: 900px;
+	width: 500px;
 	transform: translateY(-50px);
 }
 .quote p {
 	text-align: left;
-	font-size: 25px;
-	font-weight: bold;
-	background: linear-gradient(to left,
-			violet,
-			indigo,
-			blue,
-			green,
-			yellow,
-			orange,
-			red);
+	font-size: 20px;
+	font-weight:500;
+	background: fixed;
 	-webkit-background-clip: text;
-	color: transparent;
+	color:#272529;
 
 }
 .quote h5 {
-	font-size: 16px;
+	font-size: 20px;
 	color: #2e2e2e;
 }
 
@@ -165,7 +158,7 @@ a, button {
 	cursor: pointer;
 }
 .svg-image img{
-	width: 500px;
+	width: 600px;
 	filter: drop-shadow(0 20px 10px rgba(0,0,0,0.2));
 }
 
@@ -538,11 +531,11 @@ a, button {
 }
 .service-swipe .s-card p {
 	color: #f2f2f2;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-family: 'Open Sans',sans-serif;
 }
 .service-swipe .s-card:hover {
-	box-shadow: 0 0 50px rgba(255,255,255,0.8);
+	box-shadow: 0 0 50px rgb(187, 0, 0);
 	transform: translateY(-10px);
 }
 
